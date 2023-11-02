@@ -2,11 +2,11 @@ package edu.austral.ingsis.math.composite;
 
 import java.util.List;
 
-public class Module implements Function{
+public class Absolute implements Function{
 
     private final Function containedFunction;
 
-    public Module (Function containedFunction){
+    public Absolute(Function containedFunction){
         this.containedFunction = containedFunction;
     }
 
